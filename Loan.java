@@ -26,7 +26,7 @@ public class Loan implements Serializable {
 		loanDate = new Date();
    }
  
-	public Loan(Loan1 loan){
+	public Loan(Loan loan){
 		this.annualInterestRate = loan.getAnnualInterestRate();
 		this.numberOfYears = (int)(loan.getNumberOfYears());
 		this.loanAmount = loan.getLoanAmount();
